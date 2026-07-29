@@ -1,9 +1,711 @@
-country,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019
-Benin,0,0,0,0,1,0,7,0,0,0
-Cameroon,0,0,0,23,0,0,2,2,0,0
-Côte d'Ivoire,0,0,0,2,3,0,0,0,0,0
-Ghana,71,23,64,17,45,44,30,62,69,54
-Guinea,0,48,0,0,0,0,0,0,0,0
-Mali,0,0,3,25,14,19,32,3,0,10
-Nigeria,0,0,4,0,3,0,0,4,2,7
-Senegal,0,0,0,4,5,8,0,0,0,0
+,sample_id,year,qc_pass,study_id,region,country,country_id,site,site_id,ARTresistant,CQresistant,MQresistant,PPQresistant,PYRresistant,SDXresistant
+2550,PF0342-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2435,PF0192-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+2529,PF0314-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,sensitive,sensitive
+2434,PF0191-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+2562,PF0355-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2587,PF0381-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+2674,PF0493-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,sensitive,sensitive
+2456,PF0221-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,sensitive,resistant
+2512,PF0288-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2465,PF0232-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2419,PF0169-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,resistant,sensitive,sensitive,sensitive,sensitive
+2581,PF0374-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+2543,PF0335-CW,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2450,PF0212-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2474,PF0242-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+2491,PF0264-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2429,PF0185-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2518,PF0298-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,resistant,sensitive,undetermined,sensitive,resistant
+2481,PF0253-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,undetermined
+2516,PF0294-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2423,PF0176-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2420,PF0170-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2436,PF0193-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,sensitive,resistant
+2422,PF0175-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,sensitive,resistant
+2415,PF0164-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2406,PF0155-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+2488,PF0261-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,resistant,sensitive,sensitive,resistant,sensitive
+2504,PF0279-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2482,PF0254-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2460,PF0226-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+2447,PF0207-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2461,PF0228-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+2572,PF0365-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,resistant,sensitive,sensitive,resistant,undetermined
+2520,PF0301-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,resistant,sensitive,sensitive,sensitive,resistant
+2475,PF0245-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2549,PF0341-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2399,PF0148-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2499,PF0274-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+2544,PF0336-CW,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+2576,PF0369-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2496,PF0269-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2523,PF0306-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2431,PF0188-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2564,PF0357-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,sensitive,sensitive,undetermined,resistant
+2547,PF0339-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2503,PF0278-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,resistant,sensitive,sensitive,sensitive,resistant
+2471,PF0239-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2441,PF0199-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,undetermined,sensitive,sensitive,resistant,undetermined
+2536,PF0328-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2426,PF0180-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,sensitive,sensitive
+2507,PF0282-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,sensitive,resistant
+2585,PF0378-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2502,PF0277-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2408,PF0157-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2473,PF0241-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2542,PF0334-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,sensitive,resistant
+2403,PF0152-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2432,PF0189-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+2484,PF0256-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+2568,PF0361-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,resistant,sensitive,sensitive,undetermined,undetermined
+2443,PF0203-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2446,PF0206-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,sensitive,resistant
+2401,PF0150-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2561,PF0354-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2437,PF0195-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+2472,PF0240-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2537,PF0329-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2501,PF0276-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2407,PF0156-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,sensitive,resistant
+2506,PF0281-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+2524,PF0308-C,2010,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2665,PF0482-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,resistant,sensitive,sensitive,resistant,resistant
+188,PA0140-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+221,PA0173-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,sensitive
+2649,PF0458-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+288,PA0240-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+275,PA0227-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,undetermined,resistant
+2597,PF0396-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,undetermined
+291,PA0243-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2664,PF0480-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+343,PA0306-CW,2011,True,1026,,Guinea,GN,Faranah,Faranah,sensitive,resistant,undetermined,undetermined,resistant,undetermined
+194,PA0146-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,undetermined,sensitive,sensitive,resistant,undetermined
+245,PA0197-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,sensitive,sensitive,sensitive,sensitive,resistant
+247,PA0199-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,undetermined,sensitive,sensitive,sensitive,sensitive
+263,PA0215-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+351,PA0325-CW,2011,True,1026,,Guinea,GN,Faranah,Faranah,sensitive,sensitive,undetermined,undetermined,resistant,undetermined
+231,PA0183-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+233,PA0185-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,undetermined,sensitive,sensitive,sensitive,undetermined
+199,PA0151-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2673,PF0492-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+2646,PF0453-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+268,PA0220-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,undetermined,sensitive,sensitive,undetermined,resistant
+200,PA0152-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+338,PA0299-CW,2011,True,1026,,Guinea,GN,Faranah,Faranah,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+2686,PF0518-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,undetermined
+183,PA0134-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+310,PA0262-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+325,PA0284-CW,2011,True,1026,,Guinea,GN,Faranah,Faranah,sensitive,resistant,undetermined,undetermined,undetermined,resistant
+2636,PF0443-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+224,PA0176-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+308,PA0260-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+262,PA0214-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2630,PF0437-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+197,PA0149-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+248,PA0200-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2626,PF0431-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+331,PA0291-CW,2011,True,1026,,Guinea,GN,Faranah,Faranah,sensitive,undetermined,undetermined,undetermined,resistant,resistant
+324,PA0283-CW,2011,True,1026,,Guinea,GN,Faranah,Faranah,sensitive,sensitive,undetermined,undetermined,sensitive,resistant
+215,PA0167-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+2594,PF0392-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+366,PA0344-CW,2011,True,1026,,Guinea,GN,Faranah,Faranah,sensitive,sensitive,undetermined,undetermined,resistant,undetermined
+255,PA0207-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+246,PA0198-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,sensitive
+267,PA0219-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,undetermined,resistant,sensitive,sensitive,resistant,resistant
+211,PA0163-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,undetermined
+273,PA0225-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2409,PF0158-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+379,PA0363-CW,2011,True,1026,,Guinea,GN,Faranah,Faranah,sensitive,resistant,undetermined,undetermined,resistant,sensitive
+2617,PF0419-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,resistant,sensitive,sensitive,resistant,resistant
+208,PA0160-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,undetermined,sensitive,sensitive,resistant,undetermined
+2609,PF0410-CW,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+235,PA0187-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,sensitive
+355,PA0330-CW,2011,True,1026,,Guinea,GN,Faranah,Faranah,sensitive,sensitive,undetermined,undetermined,sensitive,sensitive
+239,PA0191-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,undetermined,undetermined
+261,PA0213-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2624,PF0428-CW,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+228,PA0180-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2680,PF0510-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,undetermined,sensitive,sensitive,undetermined,undetermined
+2608,PF0409-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+217,PA0169-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2580,PF0373-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+341,PA0303-CW,2011,True,1026,,Guinea,GN,Faranah,Faranah,sensitive,resistant,undetermined,undetermined,resistant,resistant
+2620,PF0423-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2605,PF0406-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+269,PA0221-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+303,PA0255-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+219,PA0171-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,undetermined,sensitive,sensitive,resistant,undetermined
+253,PA0205-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2661,PF0477-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,sensitive,resistant
+2675,PF0494-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,sensitive,sensitive
+264,PA0216-C,2011,True,1026,,Guinea,GN,Nzerekore,Nzerekore,sensitive,resistant,sensitive,sensitive,undetermined,resistant
+2651,PF0463-C,2011,True,1017,,Ghana,GH,Upper East,Upper East,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+2729,PF0610-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2773,PF0676-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,resistant,sensitive,undetermined,resistant,resistant
+2720,PF0596-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2809,PF0722-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+5181,PM0413-C,2012,True,1127,,Mali,ML,Bamako,Bamako,sensitive,resistant,sensitive,sensitive,undetermined,resistant
+2777,PF0681-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2753,PF0643-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,undetermined,undetermined,resistant,undetermined
+2796,PF0701-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+2740,PF0625-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2793,PF0698-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+2732,PF0614-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2743,PF0628-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,undetermined,sensitive,undetermined,undetermined,resistant
+7536,QJ0005-C,2012,True,1052,,Nigeria,NG,Kwara,Kwara,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2810,PF0723-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,sensitive,resistant
+2725,PF0604-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+2767,PF0670-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,sensitive
+2803,PF0711-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+2748,PF0634-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,undetermined,undetermined,undetermined,resistant
+2756,PF0651-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2766,PF0669-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,undetermined,resistant
+2749,PF0635-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2807,PF0718-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,sensitive,sensitive,resistant,resistant
+7535,QJ0004-C,2012,True,1052,,Nigeria,NG,Kwara,Kwara,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2739,PF0624-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2789,PF0694-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,sensitive
+2772,PF0675-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,undetermined,resistant,resistant
+2801,PF0708-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+2764,PF0667-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+5192,PM0424-C,2012,True,1127,,Mali,ML,Bamako,Bamako,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2735,PF0617-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2711,PF0579-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,undetermined,undetermined
+2715,PF0584-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2768,PF0671-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+2724,PF0603-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2797,PF0703-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+2769,PF0672-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,undetermined,undetermined,resistant
+2750,PF0638-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2754,PF0647-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2802,PF0710-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,undetermined,sensitive,sensitive,resistant,undetermined
+2736,PF0619-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+2765,PF0668-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,sensitive,resistant
+2779,PF0683-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+2782,PF0686-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+2780,PF0684-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+2790,PF0695-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,undetermined,resistant,resistant
+2805,PF0715-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+5138,PM0359-C,2012,True,1127,,Mali,ML,Bamako,Bamako,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2798,PF0704-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,undetermined,resistant,resistant
+2744,PF0629-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2728,PF0609-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+7533,QJ0003-C,2012,True,1052,,Nigeria,NG,Kwara,Kwara,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2787,PF0692-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+2755,PF0650-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2774,PF0678-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,resistant,sensitive,undetermined,resistant,resistant
+2788,PF0693-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,undetermined,resistant,resistant
+2742,PF0627-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2795,PF0700-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,undetermined,undetermined
+2713,PF0583-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+2799,PF0706-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+2746,PF0632-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+2737,PF0620-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+7531,QJ0002-C,2012,True,1052,,Nigeria,NG,Kwara,Kwara,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2757,PF0653-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+2784,PF0689-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+2808,PF0720-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2792,PF0697-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+2771,PF0674-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,sensitive,resistant
+2752,PF0641-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,undetermined,undetermined,resistant,undetermined
+2794,PF0699-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+2800,PF0707-C,2012,True,1083,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,sensitive,sensitive
+2709,PF0578-C,2012,True,1083,,Ghana,GH,Brong Ahafo,Brong Ahafo,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+7619,QP0024-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,resistant,sensitive,sensitive,resistant,undetermined
+7724,QP0138-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+7654,QP0064-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+7608,QP0013-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+7624,QP0029-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,resistant,sensitive,sensitive,resistant,resistant
+2969,PF0891-C,2013,True,1094,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+2874,PF0792-C,2013,True,1094,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+7772,QP0190-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+5222,PM0459-C,2013,True,1127,,Mali,ML,Bamako,Bamako,sensitive,resistant,sensitive,sensitive,resistant,sensitive
+2877,PF0796-C,2013,True,1094,,Ghana,GH,Upper East,Upper East,sensitive,undetermined,sensitive,sensitive,resistant,undetermined
+5197,PM0429-C,2013,True,1127,,Mali,ML,Bamako,Bamako,sensitive,resistant,sensitive,sensitive,resistant,sensitive
+5318,PM0562-CW,2013,True,1134,,Mali,ML,Kayes,Kayes,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+8088,QV0061-C,2013,True,1135,,Senegal,SN,Dakar,Dakar,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+5319,PM0563-CW,2013,True,1134,,Mali,ML,Kayes,Kayes,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2974,PF0896-C,2013,True,1094,,Ghana,GH,Upper East,Upper East,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+3041,PF0977-C,2013,True,1094,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,undetermined
+3055,PF0992-C,2013,True,1094,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+7598,QP0003-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+7778,QP0196-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,resistant,sensitive,sensitive,resistant,resistant
+5031,PM0246-C,2013,True,1097,,Mali,ML,Koulikoro,Koulikoro,sensitive,undetermined,sensitive,sensitive,resistant,undetermined
+5225,PM0463-C,2013,True,1127,,Mali,ML,Bamako,Bamako,sensitive,resistant,sensitive,sensitive,resistant,sensitive
+5186,PM0418-C,2013,True,1127,,Mali,ML,Bamako,Bamako,sensitive,resistant,sensitive,sensitive,resistant,sensitive
+5067,PM0282-C,2013,True,1097,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,sensitive,sensitive,sensitive,sensitive
+7742,QP0158-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,resistant,sensitive,sensitive,resistant,resistant
+3024,PF0956-C,2013,True,1094,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+5286,PM0530-CW,2013,True,1134,,Mali,ML,Kayes,Kayes,sensitive,resistant,sensitive,sensitive,resistant,resistant
+5141,PM0363-C,2013,True,1127,,Mali,ML,Bamako,Bamako,sensitive,resistant,sensitive,sensitive,sensitive,sensitive
+7673,QP0085-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,resistant,sensitive,sensitive,resistant,resistant
+5320,PM0564-CW,2013,True,1134,,Mali,ML,Kayes,Kayes,sensitive,sensitive,sensitive,sensitive,sensitive,resistant
+3066,PF1006-C,2013,True,1094,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+7603,QP0008-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+5169,PM0396-C,2013,True,1127,,Mali,ML,Bamako,Bamako,sensitive,undetermined,sensitive,sensitive,undetermined,sensitive
+7735,QP0151-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+5152,PM0377-C,2013,True,1127,,Mali,ML,Bamako,Bamako,sensitive,resistant,sensitive,sensitive,resistant,resistant
+7690,QP0102-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+7832,QP0255-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,resistant,sensitive,sensitive,resistant,resistant
+7720,QP0133-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+5123,PM0341-C,2013,True,1127,,Mali,ML,Bamako,Bamako,sensitive,resistant,sensitive,sensitive,resistant,sensitive
+7837,QQ0005-C,2013,True,1100,,Côte d'Ivoire,CI,Abidjan,Abidjan,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2823,PF0737-C,2013,True,1094,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+7730,QP0146-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,resistant,sensitive,sensitive,resistant,resistant
+4973,PM0182-C,2013,True,1097,,Mali,ML,Koulikoro,Koulikoro,sensitive,resistant,sensitive,sensitive,sensitive,sensitive
+7751,QP0168-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+2860,PF0776-C,2013,True,1094,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+5278,PM0522-CW,2013,True,1134,,Mali,ML,Kayes,Kayes,sensitive,resistant,sensitive,sensitive,resistant,sensitive
+5005,PM0216-C,2013,True,1097,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+5145,PM0367-C,2013,True,1127,,Mali,ML,Bamako,Bamako,sensitive,resistant,sensitive,sensitive,resistant,sensitive
+7600,QP0005-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,resistant,sensitive,sensitive,resistant,resistant
+7831,QP0254-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+3000,PF0923-C,2013,True,1094,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+2851,PF0766-C,2013,True,1094,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+4985,PM0195-C,2013,True,1097,,Mali,ML,Koulikoro,Koulikoro,sensitive,undetermined,sensitive,sensitive,sensitive,sensitive
+2857,PF0773-C,2013,True,1094,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+5300,PM0544-C,2013,True,1134,,Mali,ML,Kayes,Kayes,sensitive,sensitive,undetermined,sensitive,sensitive,sensitive
+5091,PM0306-C,2013,True,1097,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,sensitive,sensitive,sensitive,resistant
+2886,PF0806-C,2013,True,1094,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+3008,PF0934-C,2013,True,1094,,Ghana,GH,Upper East,Upper East,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+7662,QP0073-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,resistant,sensitive,sensitive,resistant,resistant
+7666,QP0077-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+8099,QV0075-C,2013,True,1135,,Senegal,SN,Dakar,Dakar,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+8045,QV0005-C,2013,True,1135,,Senegal,SN,Dakar,Dakar,sensitive,resistant,sensitive,sensitive,sensitive,sensitive
+8102,QV0078-C,2013,True,1135,,Senegal,SN,Dakar,Dakar,sensitive,resistant,sensitive,sensitive,resistant,sensitive
+7622,QP0027-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,resistant,sensitive,sensitive,resistant,sensitive
+4982,PM0192-C,2013,True,1097,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,sensitive,sensitive,sensitive,sensitive
+5115,PM0332-C,2013,True,1127,,Mali,ML,Bamako,Bamako,sensitive,resistant,sensitive,sensitive,resistant,sensitive
+7856,QQ0051-C,2013,True,1100,,Côte d'Ivoire,CI,Abidjan,Abidjan,sensitive,sensitive,sensitive,sensitive,sensitive,resistant
+5168,PM0395-C,2013,True,1127,,Mali,ML,Bamako,Bamako,sensitive,sensitive,sensitive,sensitive,sensitive,resistant
+4991,PM0201-C,2013,True,1097,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,sensitive,sensitive,undetermined,undetermined
+2888,PF0808-C,2013,True,1094,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+2840,PF0755-C,2013,True,1094,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+7753,QP0170-C,2013,True,1093,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+22448,SPT36866,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+5347,PM0591-C,2014,True,1134,,Mali,ML,Kayes,Kayes,sensitive,resistant,sensitive,sensitive,resistant,sensitive
+16703,SPT15098,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+17916,SPT18178,2014,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+18034,SPT18308,2014,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,resistant,undetermined,undetermined,resistant,resistant
+5352,PM0596-C,2014,True,1134,,Mali,ML,Kayes,Kayes,sensitive,undetermined,sensitive,sensitive,resistant,sensitive
+8120,QV0097-C,2014,True,1135,,Senegal,SN,Dakar,Dakar,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+17863,SPT18111,2014,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,undetermined,undetermined
+18061,SPT18336,2014,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,sensitive,resistant
+16566,SPT14958,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+3145,PF1050-C,2014,True,1096,,Ghana,GH,Central,Central,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+5334,PM0578-C,2014,True,1134,,Mali,ML,Kayes,Kayes,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+17824,SPT18026,2014,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,undetermined,undetermined,undetermined,sensitive,undetermined
+5379,PM0711-CW,2014,True,1140,,Mali,ML,Koulikoro,Koulikoro,sensitive,undetermined,undetermined,undetermined,resistant,resistant
+17976,SPT18249,2014,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,undetermined
+17696,SPT17852,2014,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,sensitive,resistant
+3188,PF1075-C,2014,True,1096,,Ghana,GH,Central,Central,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+7543,QJ0018-C,2014,True,1103,,Nigeria,NG,Lagos,Lagos,sensitive,resistant,sensitive,sensitive,resistant,resistant
+8032,QT0036-CW,2014,True,1131,,Benin,BJ,Littoral,Littoral,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+17710,SPT17876,2014,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,sensitive,resistant
+18013,SPT18287,2014,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,undetermined,undetermined,undetermined,resistant,undetermined
+22447,SPT36865,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,undetermined,undetermined,undetermined,resistant,resistant
+17991,SPT18265,2014,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+3159,PF1059-C,2014,True,1096,,Ghana,GH,Central,Central,sensitive,resistant,sensitive,sensitive,resistant,resistant
+8106,QV0083-C,2014,True,1135,,Senegal,SN,Dakar,Dakar,sensitive,undetermined,sensitive,sensitive,resistant,undetermined
+19626,SPT23010,2014,True,1197,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+17989,SPT18263,2014,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,undetermined,resistant
+16546,SPT14937,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+17758,SPT17950,2014,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,sensitive,undetermined
+3122,PF1038-C,2014,True,1096,,Ghana,GH,Central,Central,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+17873,SPT18123,2014,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,undetermined
+17805,SPT18001,2014,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+16761,SPT15156,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,resistant,sensitive,sensitive,resistant,resistant
+5417,PM0766-CW,2014,True,1140,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+5429,PM0788-CW,2014,True,1140,,Mali,ML,Koulikoro,Koulikoro,sensitive,resistant,undetermined,undetermined,resistant,resistant
+17964,SPT18236,2014,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,sensitive,resistant
+19633,SPT23018,2014,True,1197,,Mali,ML,Koulikoro,Koulikoro,sensitive,resistant,undetermined,undetermined,resistant,sensitive
+8131,QV0109-C,2014,True,1135,,Senegal,SN,Dakar,Dakar,undetermined,sensitive,sensitive,sensitive,resistant,sensitive
+8109,QV0086-C,2014,True,1135,,Senegal,SN,Dakar,Dakar,sensitive,sensitive,sensitive,sensitive,sensitive,undetermined
+16581,SPT14973,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+17682,SPT17833,2014,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+16648,SPT15042,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+8130,QV0108-C,2014,True,1135,,Senegal,SN,Dakar,Dakar,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+5431,PM0793-CW,2014,True,1140,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,undetermined,undetermined,resistant,undetermined
+19638,SPT23023,2014,True,1197,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,undetermined,undetermined,resistant,sensitive
+7558,QJ0161-C,2014,True,1103,,Nigeria,NG,Lagos,Lagos,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+16763,SPT15158,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+3133,PF1044-C,2014,True,1096,,Ghana,GH,Central,Central,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+7878,QQ0083-C,2014,True,1100,,Côte d'Ivoire,CI,Abidjan,Abidjan,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+5355,PM0599-C,2014,True,1134,,Mali,ML,Kayes,Kayes,sensitive,undetermined,sensitive,sensitive,resistant,undetermined
+22461,SPT36879,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+22443,SPT36861,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+18039,SPT18313,2014,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,resistant,undetermined,sensitive,resistant,undetermined
+22458,SPT36876,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+16732,SPT15127,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+16671,SPT15065,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+7904,QQ0121-C,2014,True,1100,,Côte d'Ivoire,CI,Abidjan,Abidjan,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+16665,SPT15059,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,undetermined,undetermined
+16560,SPT14952,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+5324,PM0568-C,2014,True,1134,,Mali,ML,Kayes,Kayes,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+3077,PF1014-C,2014,True,1096,,Ghana,GH,Central,Central,sensitive,resistant,sensitive,sensitive,resistant,resistant
+7851,QQ0043-C,2014,True,1100,,Côte d'Ivoire,CI,Abidjan,Abidjan,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+17898,SPT18158,2014,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+7548,QJ0094-C,2014,True,1103,,Nigeria,NG,Lagos,Lagos,sensitive,resistant,sensitive,sensitive,resistant,resistant
+19636,SPT23021,2014,True,1197,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+16757,SPT15152,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+17846,SPT18055,2014,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,undetermined
+5340,PM0584-C,2014,True,1134,,Mali,ML,Kayes,Kayes,sensitive,resistant,sensitive,sensitive,sensitive,undetermined
+16674,SPT15068,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+17658,SPT17804,2014,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+16752,SPT15147,2014,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+16627,SPT15021,2015,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+17588,SPT17025,2015,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+16552,SPT14944,2015,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+20403,SPT26415,2015,True,1134,,Mali,ML,Kayes,Kayes,sensitive,resistant,sensitive,sensitive,sensitive,sensitive
+16686,SPT15081,2015,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+16614,SPT15007,2015,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,sensitive,resistant
+17568,SPT17004,2015,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+18423,SPT19014,2015,True,1197,,Mali,ML,Kayes,Kayes,undetermined,resistant,undetermined,undetermined,sensitive,resistant
+18436,SPT19031,2015,True,1197,,Mali,ML,Kayes,Kayes,sensitive,sensitive,undetermined,undetermined,resistant,sensitive
+21633,SPT35194,2015,True,1162,,Senegal,SN,Sedhiou,Sedhiou,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+17560,SPT16996,2015,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+16613,SPT15006,2015,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+22488,SPT36906,2015,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+21628,SPT35189,2015,True,1162,,Senegal,SN,Sedhiou,Sedhiou,sensitive,resistant,sensitive,sensitive,resistant,resistant
+3202,PF1083-C,2015,True,1096,,Ghana,GH,Central,Central,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+18366,SPT18957,2015,True,1197,,Mali,ML,Kayes,Kayes,undetermined,sensitive,undetermined,undetermined,resistant,undetermined
+16646,SPT15040,2015,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+3262,PF1123-Cx,2015,True,1151,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+3277,PF1129-Cx9,2015,True,1151,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+3421,PF1230-CW,2015,True,1151,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+16620,SPT15014,2015,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+16675,SPT15069,2015,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+17470,SPT16902,2015,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+17547,SPT16983,2015,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,undetermined,resistant
+20364,SPT26375,2015,True,1134,,Mali,ML,Kayes,Kayes,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+3337,PF1157-Cx9,2015,True,1151,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+21631,SPT35192,2015,True,1162,,Senegal,SN,Sedhiou,Sedhiou,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+16636,SPT15030,2015,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+16619,SPT15013,2015,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+17473,SPT16905,2015,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+21581,SPT35139,2015,True,1162,,Senegal,SN,Sedhiou,Sedhiou,sensitive,sensitive,sensitive,sensitive,undetermined,undetermined
+15993,SPT00065,2015,True,1164,,Mali,ML,Sikasso,Sikasso,sensitive,sensitive,undetermined,undetermined,resistant,sensitive
+17505,SPT16938,2015,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+21610,SPT35170,2015,True,1162,,Senegal,SN,Sedhiou,Sedhiou,sensitive,sensitive,undetermined,undetermined,resistant,sensitive
+20401,SPT26413,2015,True,1134,,Mali,ML,Kayes,Kayes,sensitive,resistant,sensitive,sensitive,resistant,resistant
+18351,SPT18942,2015,True,1197,,Mali,ML,Kayes,Kayes,sensitive,sensitive,undetermined,undetermined,undetermined,sensitive
+20378,SPT26389,2015,True,1134,,Mali,ML,Kayes,Kayes,sensitive,resistant,sensitive,sensitive,resistant,sensitive
+3217,PF1091-C,2015,True,1096,,Ghana,GH,Central,Central,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+17610,SPT17047,2015,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+17466,SPT16898,2015,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+17584,SPT17021,2015,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+17443,SPT16874,2015,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,undetermined,sensitive,undetermined,resistant,resistant
+17528,SPT16962,2015,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+20385,SPT26396,2015,True,1134,,Mali,ML,Kayes,Kayes,sensitive,undetermined,sensitive,sensitive,resistant,undetermined
+17518,SPT16951,2015,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,undetermined,resistant
+17521,SPT16954,2015,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+3212,PF1088-C,2015,True,1096,,Ghana,GH,Central,Central,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+16121,SPT00195,2015,True,1164,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+3414,PF1223-CW,2015,True,1151,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,sensitive,resistant
+17594,SPT17031,2015,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,undetermined
+21594,SPT35154,2015,True,1162,,Senegal,SN,Sedhiou,Sedhiou,sensitive,sensitive,undetermined,sensitive,resistant,sensitive
+3292,PF1136-Cx,2015,True,1151,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,undetermined
+20352,SPT26363,2015,True,1134,,Mali,ML,Kayes,Kayes,sensitive,sensitive,sensitive,undetermined,resistant,resistant
+18395,SPT18986,2015,True,1197,,Mali,ML,Kayes,Kayes,undetermined,sensitive,undetermined,undetermined,sensitive,sensitive
+17524,SPT16958,2015,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+18397,SPT18988,2015,True,1197,,Mali,ML,Kayes,Kayes,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+3257,PF1120-Cx6,2015,True,1151,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,sensitive,resistant
+16718,SPT15113,2015,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+21580,SPT35137,2015,True,1162,,Senegal,SN,Sedhiou,Sedhiou,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+16629,SPT15023,2015,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+17484,SPT16916,2015,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+18402,SPT18993,2015,True,1197,,Mali,ML,Kayes,Kayes,sensitive,resistant,undetermined,undetermined,undetermined,undetermined
+16658,SPT15052,2015,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+22494,SPT36912,2015,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,undetermined,undetermined,sensitive,sensitive
+16007,SPT00079,2015,True,1164,,Mali,ML,Sikasso,Sikasso,sensitive,sensitive,undetermined,undetermined,resistant,sensitive
+17490,SPT16922,2015,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,undetermined,resistant
+22468,SPT36886,2015,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,sensitive,undetermined,resistant,resistant
+20419,SPT26431,2015,True,1134,,Mali,ML,Kayes,Kayes,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+21632,SPT35193,2015,True,1162,,Senegal,SN,Sedhiou,Sedhiou,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+15980,SPT00052,2015,True,1164,,Mali,ML,Sikasso,Sikasso,sensitive,sensitive,undetermined,undetermined,undetermined,resistant
+18427,SPT19021,2015,True,1197,,Mali,ML,Kayes,Kayes,sensitive,undetermined,undetermined,undetermined,resistant,resistant
+16198,SPT00828,2016,True,1192,,Mali,ML,Koulikoro,Koulikoro,sensitive,resistant,sensitive,sensitive,resistant,resistant
+16388,SPT12459,2016,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+16266,SPT12087,2016,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+16767,SPT15174,2016,True,1183,,Ghana,GH,Greater Accra,Greater Accra,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+5442,PM0809-C,2016,True,1199,,Mali,ML,Koulikoro,Koulikoro,sensitive,undetermined,sensitive,sensitive,resistant,undetermined
+17208,SPT16601,2016,True,1131,,Benin,BJ,Littoral,Littoral,sensitive,resistant,sensitive,sensitive,resistant,resistant
+16823,SPT15231,2016,True,1183,,Ghana,GH,Volta,Volta,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+17334,SPT16737,2016,True,1131,,Benin,BJ,Littoral,Littoral,sensitive,resistant,sensitive,sensitive,resistant,resistant
+20576,SPT26591,2016,True,1134,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+18109,SPT18457,2016,True,1197,,Mali,ML,Kayes,Kayes,sensitive,undetermined,undetermined,undetermined,resistant,sensitive
+20590,SPT26605,2016,True,1134,,Mali,ML,Koulikoro,Koulikoro,sensitive,resistant,sensitive,sensitive,resistant,resistant
+18188,SPT18537,2016,True,1197,,Mali,ML,Koulikoro,Koulikoro,undetermined,resistant,undetermined,undetermined,resistant,resistant
+18491,SPT19293,2016,True,1164,,Mali,ML,Koulikoro,Koulikoro,undetermined,resistant,undetermined,undetermined,resistant,resistant
+17306,SPT16709,2016,True,1131,,Benin,BJ,Littoral,Littoral,sensitive,resistant,sensitive,sensitive,resistant,resistant
+19761,SPT24193,2016,True,1165,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+16258,SPT12077,2016,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,sensitive,resistant
+16789,SPT15197,2016,True,1183,,Ghana,GH,Volta,Volta,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+17331,SPT16734,2016,True,1131,,Benin,BJ,Littoral,Littoral,sensitive,resistant,sensitive,sensitive,resistant,resistant
+16367,SPT12347,2016,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+20529,SPT26542,2016,True,1134,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,undetermined,undetermined,resistant,sensitive
+19721,SPT24153,2016,True,1165,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+17625,SPT17062,2016,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+16501,SPT12705,2016,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,undetermined,resistant
+20515,SPT26528,2016,True,1134,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,undetermined,undetermined,sensitive,resistant
+18556,SPT19364,2016,True,1164,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,undetermined,undetermined,resistant,sensitive
+18278,SPT18633,2016,True,1197,,Mali,ML,Koulikoro,Koulikoro,sensitive,resistant,undetermined,undetermined,sensitive,resistant
+18080,SPT18428,2016,True,1197,,Mali,ML,Kayes,Kayes,undetermined,resistant,undetermined,undetermined,resistant,sensitive
+16357,SPT12337,2016,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,undetermined,resistant
+16315,SPT12263,2016,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+16400,SPT12478,2016,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+18543,SPT19351,2016,True,1164,,Mali,ML,Koulikoro,Koulikoro,undetermined,resistant,undetermined,undetermined,resistant,sensitive
+16175,SPT00798,2016,True,1192,,Mali,ML,Koulikoro,Koulikoro,sensitive,undetermined,sensitive,sensitive,resistant,sensitive
+16304,SPT12131,2016,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+20472,SPT26484,2016,True,1134,,Mali,ML,Koulikoro,Koulikoro,sensitive,resistant,sensitive,sensitive,resistant,resistant
+18516,SPT19324,2016,True,1164,,Mali,ML,Koulikoro,Koulikoro,undetermined,sensitive,undetermined,undetermined,resistant,sensitive
+16805,SPT15213,2016,True,1183,,Ghana,GH,Volta,Volta,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+20566,SPT26580,2016,True,1134,,Mali,ML,Koulikoro,Koulikoro,sensitive,undetermined,sensitive,sensitive,resistant,resistant
+17425,SPT16838,2016,True,1131,,Benin,BJ,Atlantique,Atlantique,sensitive,resistant,sensitive,sensitive,resistant,resistant
+16494,SPT12652,2016,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+16791,SPT15199,2016,True,1183,,Ghana,GH,Volta,Volta,sensitive,sensitive,undetermined,undetermined,resistant,undetermined
+20495,SPT26508,2016,True,1134,,Mali,ML,Koulikoro,Koulikoro,sensitive,undetermined,undetermined,undetermined,resistant,sensitive
+20586,SPT26601,2016,True,1134,,Mali,ML,Koulikoro,Koulikoro,sensitive,resistant,sensitive,sensitive,resistant,resistant
+20449,SPT26461,2016,True,1134,,Mali,ML,Kayes,Kayes,sensitive,sensitive,undetermined,undetermined,resistant,sensitive
+20602,SPT26618,2016,True,1134,,Mali,ML,Koulikoro,Koulikoro,sensitive,resistant,undetermined,undetermined,resistant,sensitive
+16296,SPT12120,2016,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,undetermined,resistant
+16813,SPT15221,2016,True,1183,,Ghana,GH,Volta,Volta,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+16545,SPT13073,2016,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+17433,SPT16848,2016,True,1131,,Benin,BJ,Atlantique,Atlantique,sensitive,resistant,sensitive,sensitive,resistant,resistant
+17635,SPT17073,2016,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+16814,SPT15222,2016,True,1183,,Ghana,GH,Volta,Volta,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+16169,SPT00791,2016,True,1192,,Mali,ML,Koulikoro,Koulikoro,sensitive,undetermined,sensitive,undetermined,resistant,resistant
+16443,SPT12526,2016,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,undetermined,resistant
+16854,SPT15262,2016,True,1183,,Ghana,GH,Greater Accra,Greater Accra,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+18282,SPT18637,2016,True,1197,,Mali,ML,Koulikoro,Koulikoro,undetermined,resistant,undetermined,undetermined,resistant,resistant
+18591,SPT19399,2016,True,1164,,Mali,ML,Koulikoro,Koulikoro,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+16815,SPT15223,2016,True,1183,,Ghana,GH,Volta,Volta,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+16843,SPT15251,2016,True,1183,,Ghana,GH,Volta,Volta,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+17205,SPT16597,2016,True,1131,,Benin,BJ,Littoral,Littoral,sensitive,resistant,sensitive,sensitive,resistant,resistant
+16309,SPT12136,2016,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,undetermined,resistant,resistant
+16372,SPT12353,2016,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+20437,SPT26449,2016,True,1134,,Mali,ML,Kayes,Kayes,sensitive,resistant,undetermined,undetermined,resistant,resistant
+16282,SPT12105,2016,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+17628,SPT17065,2016,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+18512,SPT19319,2016,True,1164,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,undetermined,undetermined,undetermined,undetermined
+18314,SPT18669,2016,True,1197,,Mali,ML,Koulikoro,Koulikoro,undetermined,resistant,undetermined,undetermined,resistant,resistant
+18233,SPT18585,2016,True,1197,,Mali,ML,Koulikoro,Koulikoro,sensitive,resistant,undetermined,sensitive,resistant,resistant
+16217,SPT00851,2016,True,1192,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+16799,SPT15207,2016,True,1183,,Ghana,GH,Volta,Volta,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+18560,SPT19368,2016,True,1164,,Mali,ML,Koulikoro,Koulikoro,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+18142,SPT18490,2016,True,1197,,Mali,ML,Koulikoro,Koulikoro,sensitive,resistant,undetermined,undetermined,resistant,resistant
+20565,SPT26579,2016,True,1134,,Mali,ML,Koulikoro,Koulikoro,sensitive,undetermined,undetermined,sensitive,undetermined,sensitive
+19100,SPT20509,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+18675,SPT19532,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+23626,SPT41996,2017,True,1183,,Nigeria,NG,Lagos,Lagos,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+18998,SPT19961,2017,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+20934,SPT34395,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+23645,SPT42028,2017,True,1183,,Nigeria,NG,Lagos,Lagos,sensitive,resistant,undetermined,undetermined,resistant,resistant
+19159,SPT20569,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,undetermined
+18640,SPT19487,2017,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+19098,SPT20507,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,undetermined
+19586,SPT22587,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+20995,SPT34459,2017,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,undetermined,resistant
+19170,SPT21271,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+20732,SPT26947,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,undetermined,resistant
+19032,SPT19998,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+18972,SPT19932,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+19164,SPT21250,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+19087,SPT20496,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+19126,SPT20536,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+19537,SPT22471,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+20926,SPT34386,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+20627,SPT26833,2017,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+18999,SPT19962,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+19185,SPT21309,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,sensitive,sensitive
+19589,SPT22591,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+18822,SPT19733,2017,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,undetermined
+19071,SPT20038,2017,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+18911,SPT19870,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+18765,SPT19660,2017,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+18756,SPT19645,2017,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+20722,SPT26936,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,sensitive,undetermined
+19076,SPT20043,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,undetermined,resistant
+20652,SPT26862,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+19567,SPT22557,2017,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,undetermined,resistant
+19109,SPT20519,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,undetermined,resistant
+19566,SPT22556,2017,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+21009,SPT34473,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,resistant,undetermined
+19013,SPT19976,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+19552,SPT22525,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+18726,SPT19602,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,undetermined,undetermined
+19017,SPT19980,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,undetermined,undetermined,resistant
+18946,SPT19906,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+21037,SPT34502,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+19014,SPT19977,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+20951,SPT34413,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+18724,SPT19600,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+23571,SPT41873,2017,True,1183,,Nigeria,NG,Lagos,Lagos,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+18770,SPT19668,2017,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+19010,SPT19973,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,undetermined,resistant
+20987,SPT34451,2017,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+19176,SPT21283,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,undetermined,resistant,resistant
+19544,SPT22503,2017,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+18848,SPT19766,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,sensitive
+18916,SPT19875,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,undetermined,resistant
+19117,SPT20527,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,undetermined,resistant,resistant
+19129,SPT20539,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,undetermined,undetermined,resistant
+19554,SPT22527,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+18607,SPT19415,2017,True,1164,,Mali,ML,Koulikoro,Koulikoro,undetermined,sensitive,undetermined,undetermined,sensitive,resistant
+20699,SPT26910,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,sensitive,sensitive
+18651,SPT19499,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+19728,SPT24160,2017,True,1165,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,undetermined,undetermined,sensitive,resistant,resistant
+23634,SPT42008,2017,True,1183,,Nigeria,NG,Lagos,Lagos,sensitive,sensitive,undetermined,undetermined,resistant,sensitive
+18474,SPT19275,2017,True,1164,,Mali,ML,Sikasso,Sikasso,sensitive,undetermined,undetermined,undetermined,resistant,undetermined
+18889,SPT19845,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,undetermined
+21045,SPT34510,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,sensitive,resistant
+20954,SPT34416,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+19029,SPT19995,2017,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,undetermined
+20685,SPT26895,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,undetermined
+18458,SPT19256,2017,True,1164,,Mali,ML,Sikasso,Sikasso,sensitive,undetermined,undetermined,undetermined,resistant,resistant
+18782,SPT19685,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+18931,SPT19891,2017,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+19743,SPT24175,2017,True,1165,,Cameroon,CM,Sud-Ouest,Sud-Ouest,sensitive,undetermined,undetermined,undetermined,resistant,resistant
+22010,SPT36094,2018,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,undetermined
+25074,SPT45045,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+24817,SPT44638,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+23122,SPT40786,2018,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+25065,SPT45033,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+25127,SPT45105,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+23045,SPT40679,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,sensitive
+23502,SPT41226,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+23543,SPT41272,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,resistant,undetermined
+24922,SPT44828,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+24705,SPT44378,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+21273,SPT34786,2018,True,1241,,Ghana,GH,Eastern,Eastern,undetermined,sensitive,undetermined,undetermined,undetermined,resistant
+23134,SPT40803,2018,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,undetermined,resistant
+22409,SPT36682,2018,True,1241,,Ghana,GH,Greater Accra,Greater Accra,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+24647,SPT44255,2018,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+24309,SPT43762,2018,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,undetermined,resistant
+24315,SPT43769,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+24952,SPT44866,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+24381,SPT43847,2018,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+24529,SPT44036,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,undetermined,resistant,resistant
+22312,SPT36574,2018,True,1241,,Ghana,GH,Greater Accra,Greater Accra,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+25043,SPT45000,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+21281,SPT34794,2018,True,1241,,Ghana,GH,Eastern,Eastern,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+25067,SPT45036,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+24991,SPT44916,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+23389,SPT41108,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,resistant
+22978,SPT40608,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+23546,SPT41275,2018,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+21297,SPT34810,2018,True,1241,,Ghana,GH,Greater Accra,Greater Accra,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+23194,SPT40877,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+24884,SPT44719,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+23329,SPT41041,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+23061,SPT40696,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,undetermined,resistant
+24378,SPT43844,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+24248,SPT43526,2018,True,1226,,Nigeria,NG,Adamawa,Adamawa,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+24409,SPT43878,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+24979,SPT44902,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,resistant,undetermined,undetermined,resistant,resistant
+24488,SPT43971,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,undetermined
+21057,SPT34522,2018,True,1241,,Ghana,GH,Greater Accra,Greater Accra,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+21320,SPT34833,2018,True,1241,,Ghana,GH,Greater Accra,Greater Accra,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+22336,SPT36599,2018,True,1241,,Ghana,GH,Greater Accra,Greater Accra,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+24386,SPT43853,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+23008,SPT40640,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+24630,SPT44209,2018,True,1168,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+24698,SPT44364,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+24944,SPT44857,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,undetermined,resistant
+25061,SPT45027,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+24446,SPT43922,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,sensitive
+25072,SPT45043,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+23136,SPT40807,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+23480,SPT41203,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+21154,SPT34620,2018,True,1241,,Ghana,GH,Greater Accra,Greater Accra,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+22100,SPT36238,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,undetermined,resistant
+22921,SPT40534,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+25040,SPT44997,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,sensitive
+22244,SPT36495,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+21984,SPT36050,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+22339,SPT36602,2018,True,1241,,Ghana,GH,Greater Accra,Greater Accra,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+21304,SPT34817,2018,True,1241,,Ghana,GH,Greater Accra,Greater Accra,sensitive,sensitive,undetermined,undetermined,resistant,undetermined
+21173,SPT34670,2018,True,1241,,Ghana,GH,Eastern,Eastern,sensitive,sensitive,undetermined,undetermined,sensitive,sensitive
+24831,SPT44653,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+22261,SPT36519,2018,True,1241,,Ghana,GH,Greater Accra,Greater Accra,sensitive,sensitive,sensitive,undetermined,resistant,resistant
+22383,SPT36654,2018,True,1241,,Ghana,GH,Greater Accra,Greater Accra,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+23014,SPT40646,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+24250,SPT43549,2018,True,1226,,Nigeria,NG,Adamawa,Adamawa,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+21068,SPT34533,2018,True,1241,,Ghana,GH,Eastern,Eastern,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+25122,SPT45099,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+24689,SPT44348,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+23234,SPT40935,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+22181,SPT36361,2018,True,1168,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,undetermined,resistant
+21210,SPT34713,2018,True,1241,,Ghana,GH,Greater Accra,Greater Accra,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+28914,SPT67473,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+29071,SPT67639,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,sensitive,resistant
+29244,SPT67822,2019,True,1200,,Ghana,GH,Ashanti,Ashanti,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+29481,SPT70650,2019,True,1197,,Mali,ML,Koulikoro,Koulikoro,undetermined,undetermined,undetermined,undetermined,sensitive,resistant
+28899,SPT67458,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,undetermined,resistant
+28892,SPT67451,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+29005,SPT67570,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,sensitive,resistant
+28921,SPT67480,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+28968,SPT67529,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+28937,SPT67496,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+29082,SPT67650,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+29066,SPT67634,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+29225,SPT67803,2019,True,1200,,Ghana,GH,Ashanti,Ashanti,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+29017,SPT67582,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,sensitive,sensitive
+28938,SPT67497,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,undetermined,undetermined
+29214,SPT67792,2019,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+29101,SPT67669,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+29038,SPT67605,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+29217,SPT67795,2019,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+29318,SPT70482,2019,True,1197,,Mali,ML,Koulikoro,Koulikoro,undetermined,undetermined,undetermined,undetermined,resistant,resistant
+29073,SPT67641,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+28948,SPT67508,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+29064,SPT67632,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,undetermined,undetermined
+28908,SPT67467,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+29473,SPT70642,2019,True,1197,,Mali,ML,Koulikoro,Koulikoro,undetermined,resistant,undetermined,undetermined,resistant,sensitive
+28900,SPT67459,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+29074,SPT67642,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+28977,SPT67539,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+29001,SPT67564,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+29210,SPT67787,2019,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+29311,SPT70475,2019,True,1197,,Mali,ML,Koulikoro,Koulikoro,undetermined,resistant,undetermined,undetermined,resistant,resistant
+32573,SPT91771,2019,True,1306,,Nigeria,NG,Oyo,Oyo,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+29061,SPT67629,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+28950,SPT67511,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,undetermined,resistant
+28984,SPT67546,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+29024,SPT67590,2019,True,1294,,Ghana,GH,Upper East,Upper East,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+29257,SPT67835,2019,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+28933,SPT67492,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+28940,SPT67499,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+32577,SPT91775,2019,True,1306,,Nigeria,NG,Oyo,Oyo,undetermined,sensitive,undetermined,undetermined,undetermined,resistant
+29324,SPT70488,2019,True,1197,,Mali,ML,Koulikoro,Koulikoro,undetermined,resistant,undetermined,undetermined,resistant,resistant
+29223,SPT67801,2019,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+29053,SPT67621,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+29517,SPT70686,2019,True,1197,,Mali,ML,Koulikoro,Koulikoro,undetermined,sensitive,undetermined,undetermined,resistant,sensitive
+29226,SPT67804,2019,True,1200,,Ghana,GH,Ashanti,Ashanti,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+32563,SPT91759,2019,True,1306,,Nigeria,NG,Oyo,Oyo,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+29080,SPT67648,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+29095,SPT67663,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+29042,SPT67609,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+32616,SPT91822,2019,True,1306,,Nigeria,NG,Oyo,Oyo,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+29090,SPT67658,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+29233,SPT67811,2019,True,1200,,Ghana,GH,Ashanti,Ashanti,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+32771,SPT92000,2019,True,1306,,Nigeria,NG,Oyo,Oyo,sensitive,undetermined,undetermined,undetermined,resistant,resistant
+29027,SPT67593,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+29075,SPT67643,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+29504,SPT70673,2019,True,1197,,Mali,ML,Koulikoro,Koulikoro,undetermined,sensitive,undetermined,undetermined,resistant,resistant
+28967,SPT67528,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+29069,SPT67637,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,resistant,resistant
+28944,SPT67504,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,undetermined,resistant,undetermined
+29298,SPT70462,2019,True,1197,,Mali,ML,Koulikoro,Koulikoro,sensitive,undetermined,undetermined,undetermined,resistant,resistant
+29089,SPT67657,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+29057,SPT67625,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
+29303,SPT70467,2019,True,1197,,Mali,ML,Koulikoro,Koulikoro,undetermined,sensitive,undetermined,undetermined,resistant,sensitive
+28912,SPT67471,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+32785,SPT92015,2019,True,1306,,Nigeria,NG,Oyo,Oyo,undetermined,undetermined,undetermined,undetermined,resistant,resistant
+28960,SPT67521,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+28958,SPT67519,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,undetermined,sensitive,resistant,undetermined
+29463,SPT70632,2019,True,1197,,Mali,ML,Segou,Segou,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+32818,SPT92054,2019,True,1306,,Nigeria,NG,Oyo,Oyo,sensitive,sensitive,undetermined,undetermined,resistant,resistant
+28925,SPT67484,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,undetermined
+28922,SPT67481,2019,True,1294,,Ghana,GH,Upper East,Upper East,sensitive,sensitive,sensitive,sensitive,resistant,resistant
